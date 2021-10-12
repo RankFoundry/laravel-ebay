@@ -1,0 +1,37 @@
+{
+    "name": "rankfoundry/laravel-ebay",
+    "type": "library",
+    "license": "MIT",
+    "description": "Laravel API wrapper for eBay",
+    "keywords": ["ebay", "laravel", "laravel ebay"],
+    "homepage": "https://rankfoundry.com",
+    "authors": [
+        {
+            "name": "Kevin Fairbanks",
+            "email": "kevin@rankfoundry.com"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/support": "~5.4|^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rankfoundry\\LaravelEbay\\EbayServiceProvider::class"
+            ],
+            "aliases": {
+                "Ebay": "Rankfoundry\\LaravelEbay\\Facade\\Ebay::class"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Rankfoundry\\LaravelEbay\\": "src",
+            "Rankfoundry\\eBaySDK\\": "src/ebaysdk"
+        },
+        "files": ["src/ebaysdk/functions.php"]
+    },
+    "minimum-stability": "stable"
+}

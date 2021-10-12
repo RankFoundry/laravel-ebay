@@ -2,6 +2,7 @@
 
 namespace RankFoundry\LaravelEbay;
 
+use RankFoundry\LaravelEbay\Ebay;
 use RankFoundry\eBaySDK\Sdk;
 
 class EbayServices

@@ -19,10 +19,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rankfoundry\\LaravelEbay\\EbayServiceProvider::class"
+                "Rankfoundry\\LaravelEbay\\EbayServiceProvider"
             ],
             "aliases": {
-                "Ebay": "Rankfoundry\\LaravelEbay\\Facade\\Ebay::class"
+                "Ebay": "Rankfoundry\\LaravelEbay\\Facade\\Ebay"
             }
         }
     },

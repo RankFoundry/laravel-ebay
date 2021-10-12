@@ -13,7 +13,8 @@ class Ebay
         $config = [
             'credentials'   =>  config('ebay.'.config('ebay.mode').'.credentials'),
             'siteId'        =>  config('ebay.siteId'),
-            'sandbox'       =>  $sandbox
+            'sandbox'       =>  $sandbox,
+            'ruName'        =>  config('ebay.'.config('ebay.mode').'.ruName'),
         ];
 
         $this->config = $config;

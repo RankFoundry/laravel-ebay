@@ -1,6 +1,6 @@
 <?php
 
-namespace RankFoundry\LaravelEbay\Facade;
+namespace Rankfoundry\LaravelEbay\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

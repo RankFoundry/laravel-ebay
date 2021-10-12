@@ -1,9 +1,9 @@
 <?php
 
-namespace RankFoundry\LaravelEbay;
+namespace Rankfoundry\LaravelEbay;
 
-use RankFoundry\LaravelEbay\Ebay;
-use RankFoundry\eBaySDK\Sdk;
+use Rankfoundry\LaravelEbay\Ebay;
+use Rankfoundry\eBaySDK\Sdk;
 
 class EbayServices
 {

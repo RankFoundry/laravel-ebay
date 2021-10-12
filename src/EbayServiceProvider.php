@@ -1,6 +1,6 @@
 <?php
 
-namespace RankFoundry\LaravelEbay;
+namespace Rankfoundry\LaravelEbay;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -53,6 +53,7 @@ return [
         ],
         'authToken' => env('EBAY_SANDBOX_AUTH_TOKEN'),
         'oauthUserToken' => env('EBAY_SANDBOX_OAUTH_USER_TOKEN'),
+        'ruName'    => env('EBAY_PROD_RUNAME'),
     ],
     'production' => [
         'credentials' => [
@@ -62,5 +63,6 @@ return [
         ],
         'authToken' => env('EBAY_PROD_AUTH_TOKEN'),
         'oauthUserToken' => env('EBAY_PROD_OAUTH_USER_TOKEN'),
+        'ruName'    => env('EBAY_PROD_RUNAME'),
     ]
 ];
